@@ -1,0 +1,43 @@
+# Gradle
+.gradle
+/build
+/composeApp/build/
+/iosApp/build/
+
+# Kotlin / KMP
+.kotlin
+**/build/
+*.iml
+*.ipr
+*.iws
+.idea/
+/bin/
+**/bin/
+
+# Signing & Secrets
+key.properties
+local.properties
+signing/*.jks
+signing/*.pfx
+**/*.jks
+**/*.pfx
+
+# Desktop Distributions
+/composeApp/build/compose/binaries/
+/arch_build/
+*.pkg.tar.zst
+*.deb
+*.rpm
+*.apk
+*.zip
+
+# Large Binaries
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.exe
+
+# Android specifics
+.externalNativeBuild
+.cxx
+/captures/
